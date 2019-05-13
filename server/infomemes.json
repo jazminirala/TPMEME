@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "nombre": "Lo que pediste vs lo que te llegó",
+        "imagen": "img/tendencia/Lo que pediste vs lo que te llegó.jpg",
+        "cantFav": 4,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 2,
+        "nombre": "Precios ESSENciales",
+        "imagen": "img/tendencia/Precios ESSENciales.jpg",
+        "cantFav": 2,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 3,
+        "nombre": "No te olvides de llevar tu estampita",
+        "imagen": "img/tendencia/No te olvides de llevar tu estampita.jpg",
+        "cantFav": 9,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 4,
+        "nombre": "Invisible a los ojos",
+        "imagen": "img/tendencia/Invisible a los ojos.jpg",
+        "cantFav": 8,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 5,
+        "nombre": "47 Street",
+        "imagen": "img/tendencia/47 Street.jpg",
+        "cantFav": 1,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 6,
+        "nombre": "En cuántas cuotas",
+        "imagen": "img/tendencia/En cuántas cuotas.jpg",
+        "cantFav": 5,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 7,
+        "nombre": "La tía Carmen",
+        "imagen": "img/populares/La tía Carmen.jpg",
+        "cantFav": 7,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 8,
+        "nombre": "Game Over",
+        "imagen": "img/populares/Game Over.jpg",
+        "cantFav": 8,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 9,
+        "nombre": "Diegote lo sabe",
+        "imagen": "img/populares/Diegote lo sabe.jpg",
+        "cantFav": 11,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 10,
+        "nombre": "No juzguéis",
+        "imagen": "img/populares/No juzguéis.jpg",
+        "cantFav": 3,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 11,
+        "nombre": "ia tu sabes",
+        "imagen": "img/populares/ia tu sabes.jpg",
+        "cantFav": 5,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 12,
+        "nombre": "Pipita nunca falla",
+        "imagen": "img/populares/Pipita nunca falla.jpg",
+        "cantFav": 5,
+        "clasicos": true,
+        "tendencia": false
+    }
+]
+
+
+

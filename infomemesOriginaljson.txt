@@ -1,0 +1,103 @@
+
+
+
+[
+    {
+        "id": 1,
+        "nombre": "Z",
+        "imagen": "img/tendencia/anillouno.jpg",
+        "cantFav": 4,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 2,
+        "nombre": "cacerolas",
+        "imagen": "img/tendencia/cacerolas.jpg",
+        "cantFav": 2,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 3,
+        "nombre": "game1",
+        "imagen": "img/tendencia/game1.jpg",
+        "cantFav": 9,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 4,
+        "nombre": "principito",
+        "imagen": "img/tendencia/principito.jpg",
+        "cantFav": 8,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 5,
+        "nombre": "rosadolar",
+        "imagen": "img/tendencia/rosadolar.jpg",
+        "cantFav": 1,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 6,
+        "nombre": "sube",
+        "imagen": "img/tendencia/sube.jpg",
+        "cantFav": 5,
+        "clasicos": false,
+        "tendencia": true
+    },
+    {
+        "id": 7,
+        "nombre": "bebe8",
+        "imagen": "img/populares/bebe8.jpg",
+        "cantFav": 7,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 8,
+        "nombre": "depiden1",
+        "imagen": "img/populares/depiden1.jpg",
+        "cantFav": 8,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 9,
+        "nombre": "diego2",
+        "imagen": "img/populares/diego2.jpg",
+        "cantFav": 11,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 10,
+        "nombre": "dino6",
+        "imagen": "img/populares/dino6.jpg",
+        "cantFav": 3,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 11,
+        "nombre": "gasolina4",
+        "imagen": "img/populares/gasolina4.jpg",
+        "cantFav": 5,
+        "clasicos": true,
+        "tendencia": false
+    },
+    {
+        "id": 12,
+        "nombre": "nenarosa7",
+        "imagen": "img/populares/nenarosa7.jpg",
+        "cantFav": 5,
+        "clasicos": true,
+        "tendencia": false
+    }
+]
+
+*/

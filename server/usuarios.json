@@ -1,0 +1,35 @@
+[
+    {
+        "username": "Mariana García",
+        "email": "marianagarcia@gmail.com",
+        "pass": "marianalamejor",
+        "registrado": "true",
+        "favoritos": [
+            11,
+            5,
+            8
+        ]
+    },
+    {
+        "username": "Laura Gonzalez",
+        "email": "lauragonzalez@gmail.com",
+        "pass": "lauralamejor",
+        "registrado": "true",
+        "favoritos": [
+            12,
+            9,
+            6
+        ]
+    },
+    {
+        "username": "Ornella farina",
+        "email": "orngellafarima@gmail.com",
+        "pass": "ornellalamejor",
+        "registrado": "true",
+        "favoritos": [
+            1,
+            7,
+            11
+        ]
+    }
+]
