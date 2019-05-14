@@ -5,13 +5,6 @@ const app = express();
 const bodyParser = require('body-parser');
 const path = require('path');
 const fs = require('fs');
-const expressSession = require('express-session');
-
-
-
-
-// JS propios
-const login = require('./login');
 
 
 // creando ruta raíz //
@@ -39,29 +32,17 @@ app.get("/infoMemes", function (req, res){
 })
 
 
-
-
-
-
-//indica en qué puerto estamos trabajando//
-app.listen(8000, function(){
-    console.log("Escuchando puerto 8000");
-})
-
-/*----lOGUIN express-session------*/
-
-
 // JS propios
-const login = require('./login');
+const login = require('./index');
 
 
 // Manejo de sesión en Express con opciones basatante default, que no interesa
 // ahora profundizar, que definen el comportamiento ante ciertas ocasiones, más
 // bien orientadas a cuestiones de seguridad.
 app.use(expressSession({
-  secret: 'el capitalismo es irracional',
-  resave: false,
-  saveUninitialized: false
+  secret: 'mucho ruido y pocas nueces',
+  resave: false, //especifica que la sesión se vuelve a guardar. False no se vuelve a guardar
+  saveUninitialized: false //indica que si la sesión debe guardarse. False reduce el espacio...
 }))
 
 // Middleware de body-parser para json
@@ -74,21 +55,21 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // GET /
 app.get('/', (req, res) => {
-  console.log("GET /")
+  console.log(req.session.userId);
   // Responde con la página index.html
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 
 // POST /login
-app.post('/login', (req, res) => {
+app.post('/index', (req, res) => {
   
   if (req.body.user !== undefined && req.body.password !== undefined) {
 
     if (login.validarUsuario(req.body.user, req.body.password)) {
       // Si validó bien, guardo la sesión y voy al home
       req.session.userId = req.body.user;
-      res.redirect('/home');
+      res.redirect('/index');
     } else {
       // Si validó mal, destruyo la sesión (por si la hubiera) y recargo página inicial
       req.session.destroy();
@@ -106,12 +87,12 @@ app.post('/login', (req, res) => {
 
 
 // GET /home
-app.get('/home', (req, res) => {
+app.get('/index', (req, res) => {
 
   // Cuando quiere ir a home, valido sesión.
   if (req.session.userId !== undefined) {
     // Responde con la página home.html
-    res.sendFile(path.join(__dirname, '../client/home.html'));
+    res.sendFile(path.join(__dirname, '../public/index.html'));
   } else {
     // Si mi usuarix tipeó "localhost:3000/home" en la barra de direcciones del navegador y
     // no tenía una sesión activa, lo redirijo a la página que tiene el login.
@@ -129,3 +110,14 @@ app.get('/logout', (req, res) => {
   res.redirect("/");
 
 });
+
+
+
+
+
+//indica en qué puerto estamos trabajando//
+app.listen(8000, function(){
+    console.log("Escuchando puerto 8000");
+})
+
+
