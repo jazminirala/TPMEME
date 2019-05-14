@@ -37,7 +37,7 @@ body {
 
 .titulo{    
     padding-left: 540px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-size: 20px;
     justify-content: center;
     margin: auto;
@@ -48,7 +48,7 @@ body {
 
 /*-----------------Estilos del header--------------------------*/
 .header{
-    height: 600px; /*altura*/
+    height: 470px; /*altura*/
 }
 
 .header .contenedor {
@@ -72,7 +72,8 @@ body {
     border-radius: 5px; /*para que sea un poco redondeado*/
     margin-left: auto; /*para que se vea bien en mozilla*/
     cursor: pointer; /*al pasar el mouse por encima se vuelve manito*/
-    margin-top: -700px;
+    margin-top: -720px;
+    margin-right: 40px;
 
 }
 
@@ -86,6 +87,7 @@ body {
     left: -100%; /*para que se vaya a la izquierda*/
     width: 100%;
     transition: all 0.4s;
+    
 }
 
 .menu {
@@ -94,7 +96,9 @@ body {
     margin: 0;
     font-family: "miFuente";
     font-size: 20px;
-    margin-top: -700px;
+    margin-top: -730px;
+    margin-right: 90%;
+    
 }
 
 .menu__link {  /*son las etiquetas a*/
@@ -118,14 +122,13 @@ body {
 
 /*-------------------------Estilos del Banner-----------------------*/
 .banner__chico {
-    margin-top: -600px;
+    margin-top: -668px;
 }
 
 .banner__total {
    
     position: relative;
   /*  z-index: -1000; Esto era lo que hacía que no se pudiese clickear, bloqueaba el pointer */
-    margin-bottom: -20px;
   }
   
  .header .contenedor {
@@ -159,6 +162,15 @@ body {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 60px;
+    margin-left: 300px;
+    
+   
+
+}
+
+.info__img{
+        margin-left: -20px;
+        
 
 }
     
@@ -169,7 +181,6 @@ body {
      color: #fff;
      width: 250px;
      padding: 10px;
-     position: relative;
      font-family: "mifuente";
      left: 300px;
      margin-left: 100px;
@@ -257,7 +268,7 @@ a.icon-favorito {
 
 .footer {
     background-color: #fba919;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
     font-family: "mifuente";
   }
@@ -289,14 +300,13 @@ a.icon-favorito {
     margin-left: 500px; /*para que se vaya a la derecha*/
     margin-bottom: 10px;
     margin-top: -30px;
-       
-    
+        
 }
+
+
 .form {
-    border: none;
-    
-    
-  
+    border: none;      
+ 
 }
 
 .text-input {
@@ -325,13 +335,12 @@ a.icon-favorito {
     font-size: 20px;
     font-family: "miFuente";
     padding: 5px;
-    
-    
 }
 
 .button.login {
     margin-top: 10px;
     margin-left: 170px;
+    
     
     
     
