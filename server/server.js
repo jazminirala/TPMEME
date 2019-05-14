@@ -5,6 +5,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const path = require('path');
 const fs = require('fs');
+/*const expressSession = require('express-session');*/
+
 
 
 // creando ruta raíz //
@@ -31,9 +33,9 @@ app.get("/infoMemes", function (req, res){
     })
 })
 
-
+/*
 // JS propios
-const login = require('./index');
+const login = require('./login');
 
 
 // Manejo de sesión en Express con opciones basatante default, que no interesa
@@ -62,7 +64,7 @@ app.get('/', (req, res) => {
 
 
 // POST /login
-app.post('/index', (req, res) => {
+app.post('/login', (req, res) => {
   
   if (req.body.user !== undefined && req.body.password !== undefined) {
 
@@ -111,7 +113,7 @@ app.get('/logout', (req, res) => {
 
 });
 
-
+*/
 
 
 
