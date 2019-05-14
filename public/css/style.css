@@ -171,7 +171,8 @@ body {
      padding: 10px;
      position: relative;
      font-family: "mifuente";
-     right: -30%;
+     left: 300px;
+     margin-left: 100px;
      
 }
 
@@ -282,4 +283,56 @@ a.icon-favorito {
 
 
 
-/*----------------- LOGUIN -----------------*/
+/*----------------- LOGIN -----------------*/
+
+.loginEnviar {
+    margin-left: 500px; /*para que se vaya a la derecha*/
+    margin-bottom: 10px;
+    margin-top: -30px;
+       
+    
+}
+.form {
+    border: none;
+    
+    
+  
+}
+
+.text-input {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 45%;
+    display: block;
+    font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.text-input-label {
+    font-size: 19px;
+    display: block;
+    font-family: "miFuente";
+    
+
+}
+
+.button {
+    border: none;
+    background-color: #FBA919;
+    color: white;
+    font-size: 20px;
+    font-family: "miFuente";
+    padding: 5px;
+    
+    
+}
+
+.button.login {
+    margin-top: 10px;
+    margin-left: 170px;
+    
+    
+    
+}

@@ -74,7 +74,7 @@ function dibujaMemeClasico(datos){
 	    for (let i = 0; i < datos.length; i ++) {
 		
 		if (datos[i].clasicos == true) {
-		    // se crea elemento div e img, y se apendea ambos al elemento articulo ya deckarado en el html
+		    // se crea elemento div e img, y se apendea ambos al elemento articulo ya declarado en el html
 		    let div = document.createElement("div");
 		    div.setAttribute("class","collage");
 	
